@@ -1,0 +1,32 @@
+D:\vstudio\BoNhiemLai\BoNhiemLai\bin\Debug\BoNhiemLai.exe.config
+D:\vstudio\BoNhiemLai\BoNhiemLai\bin\Debug\BoNhiemLai.exe
+D:\vstudio\BoNhiemLai\BoNhiemLai\bin\Debug\BoNhiemLai.pdb
+D:\vstudio\BoNhiemLai\BoNhiemLai\bin\Debug\EntityFramework.dll
+D:\vstudio\BoNhiemLai\BoNhiemLai\bin\Debug\EntityFramework.SqlServer.dll
+D:\vstudio\BoNhiemLai\BoNhiemLai\bin\Debug\EntityFramework.xml
+D:\vstudio\BoNhiemLai\BoNhiemLai\bin\Debug\EntityFramework.SqlServer.xml
+D:\vstudio\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.csproj.AssemblyReference.cache
+D:\vstudio\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.Loging.resources
+D:\vstudio\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.MainForm.resources
+D:\vstudio\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.Properties.Resources.resources
+D:\vstudio\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.csproj.GenerateResource.cache
+D:\vstudio\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.csproj.CoreCompileInputs.cache
+D:\vstudio\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.csproj.Up2Date
+D:\vstudio\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.exe
+D:\vstudio\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.pdb
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\bin\Debug\BoNhiemLai.exe.config
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\bin\Debug\BoNhiemLai.exe
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\bin\Debug\BoNhiemLai.pdb
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\bin\Debug\EntityFramework.dll
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\bin\Debug\EntityFramework.SqlServer.dll
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\bin\Debug\EntityFramework.xml
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\bin\Debug\EntityFramework.SqlServer.xml
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.csproj.AssemblyReference.cache
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.Loging.resources
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.MainForm.resources
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.Properties.Resources.resources
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.csproj.GenerateResource.cache
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.csproj.CoreCompileInputs.cache
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.csproj.Up2Date
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.exe
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Debug\BoNhiemLai.pdb

@@ -1,0 +1,16 @@
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\bin\Release\BoNhiemLai.exe.config
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\bin\Release\BoNhiemLai.exe
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\bin\Release\BoNhiemLai.pdb
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\bin\Release\EntityFramework.dll
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\bin\Release\EntityFramework.SqlServer.dll
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\bin\Release\EntityFramework.xml
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\bin\Release\EntityFramework.SqlServer.xml
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Release\BoNhiemLai.csproj.AssemblyReference.cache
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Release\BoNhiemLai.Loging.resources
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Release\BoNhiemLai.MainForm.resources
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Release\BoNhiemLai.Properties.Resources.resources
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Release\BoNhiemLai.csproj.GenerateResource.cache
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Release\BoNhiemLai.csproj.CoreCompileInputs.cache
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Release\BoNhiemLai.csproj.Up2Date
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Release\BoNhiemLai.exe
+D:\app phan mem bo nhiem lai\BoNhiemLai\BoNhiemLai\obj\Release\BoNhiemLai.pdb
