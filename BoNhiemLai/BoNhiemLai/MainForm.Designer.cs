@@ -46,6 +46,7 @@
             this.txtWorkPlace = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnCheck = new System.Windows.Forms.Button();
+            this.btnExportExcel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataPersons)).BeginInit();
             this.SuspendLayout();
             // 
@@ -224,7 +225,7 @@
             // btnCheck
             // 
             this.btnCheck.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCheck.Location = new System.Drawing.Point(900, 24);
+            this.btnCheck.Location = new System.Drawing.Point(794, 24);
             this.btnCheck.Name = "btnCheck";
             this.btnCheck.Size = new System.Drawing.Size(102, 37);
             this.btnCheck.TabIndex = 12;
@@ -232,12 +233,24 @@
             this.btnCheck.UseVisualStyleBackColor = true;
             this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
             // 
+            // btnExportExcel
+            // 
+            this.btnExportExcel.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExportExcel.Location = new System.Drawing.Point(916, 24);
+            this.btnExportExcel.Name = "btnExportExcel";
+            this.btnExportExcel.Size = new System.Drawing.Size(86, 37);
+            this.btnExportExcel.TabIndex = 13;
+            this.btnExportExcel.Text = "Xuất";
+            this.btnExportExcel.UseVisualStyleBackColor = true;
+            this.btnExportExcel.Click += new System.EventHandler(this.btnExportExcel_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(1056, 647);
+            this.Controls.Add(this.btnExportExcel);
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtWorkPlace);
@@ -282,5 +295,6 @@
         private System.Windows.Forms.TextBox txtWorkPlace;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnCheck;
+        private System.Windows.Forms.Button btnExportExcel;
     }
 }

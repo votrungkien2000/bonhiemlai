@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\app phan mem bo nhiem lai\\BoNhiemLai\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8AD6A566-6B2B-4346-BCB9-17B6403B81BE}|BoNhiemLai\\BoNhiemLai.csproj|D:\\app phan mem bo nhiem lai\\BoNhiemLai\\bonhiemlai\\loging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AD6A566-6B2B-4346-BCB9-17B6403B81BE}|BoNhiemLai\\BoNhiemLai.csproj|solutionrelative:bonhiemlai\\loging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AD6A566-6B2B-4346-BCB9-17B6403B81BE}|BoNhiemLai\\BoNhiemLai.csproj|d:\\app phan mem bo nhiem lai\\bonhiemlai\\bonhiemlai\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8AD6A566-6B2B-4346-BCB9-17B6403B81BE}|BoNhiemLai\\BoNhiemLai.csproj|solutionrelative:bonhiemlai\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8AD6A566-6B2B-4346-BCB9-17B6403B81BE}|BoNhiemLai\\BoNhiemLai.csproj|D:\\app phan mem bo nhiem lai\\BoNhiemLai\\bonhiemlai\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AD6A566-6B2B-4346-BCB9-17B6403B81BE}|BoNhiemLai\\BoNhiemLai.csproj|solutionrelative:bonhiemlai\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8AD6A566-6B2B-4346-BCB9-17B6403B81BE}|BoNhiemLai\\BoNhiemLai.csproj|D:\\app phan mem bo nhiem lai\\BoNhiemLai\\bonhiemlai\\loging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8AD6A566-6B2B-4346-BCB9-17B6403B81BE}|BoNhiemLai\\BoNhiemLai.csproj|solutionrelative:bonhiemlai\\loging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AD6A566-6B2B-4346-BCB9-17B6403B81BE}|BoNhiemLai\\BoNhiemLai.csproj|D:\\app phan mem bo nhiem lai\\BoNhiemLai\\bonhiemlai\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8AD6A566-6B2B-4346-BCB9-17B6403B81BE}|BoNhiemLai\\BoNhiemLai.csproj|solutionrelative:bonhiemlai\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AD6A566-6B2B-4346-BCB9-17B6403B81BE}|BoNhiemLai\\BoNhiemLai.csproj|d:\\app phan mem bo nhiem lai\\bonhiemlai\\bonhiemlai\\loging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AD6A566-6B2B-4346-BCB9-17B6403B81BE}|BoNhiemLai\\BoNhiemLai.csproj|solutionrelative:bonhiemlai\\loging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Loging.cs [Design]",
               "DocumentMoniker": "D:\\app phan mem bo nhiem lai\\BoNhiemLai\\BoNhiemLai\\Loging.cs",
               "RelativeDocumentMoniker": "BoNhiemLai\\Loging.cs",
@@ -46,33 +46,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\app phan mem bo nhiem lai\\BoNhiemLai\\BoNhiemLai\\MainForm.cs",
               "RelativeDocumentMoniker": "BoNhiemLai\\MainForm.cs",
               "ToolTip": "D:\\app phan mem bo nhiem lai\\BoNhiemLai\\BoNhiemLai\\MainForm.cs",
               "RelativeToolTip": "BoNhiemLai\\MainForm.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBwAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA1wBYBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T02:20:59.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Loging.cs",
               "DocumentMoniker": "D:\\app phan mem bo nhiem lai\\BoNhiemLai\\BoNhiemLai\\Loging.cs",
               "RelativeDocumentMoniker": "BoNhiemLai\\Loging.cs",
               "ToolTip": "D:\\app phan mem bo nhiem lai\\BoNhiemLai\\BoNhiemLai\\Loging.cs",
               "RelativeToolTip": "BoNhiemLai\\Loging.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAIAwwCwAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAhwCgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T09:27:16.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "D:\\app phan mem bo nhiem lai\\BoNhiemLai\\BoNhiemLai\\MainForm.cs",
               "RelativeDocumentMoniker": "BoNhiemLai\\MainForm.cs",

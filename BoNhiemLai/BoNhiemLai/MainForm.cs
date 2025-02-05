@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 using System.Windows.Forms;
+using System.IO;
+using ClosedXML.Excel;
+using DocumentFormat.OpenXml.Spreadsheet;
 
 
 namespace BoNhiemLai
@@ -213,10 +216,64 @@ namespace BoNhiemLai
         {
             Application.Exit();
         }
-
         private void btnCheck_Click(object sender, EventArgs e)
         {
             TimerElapsed();
+        }
+        private void btnExportExcel_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có muốn xuất file excel không?", "Xác nhận", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (result == DialogResult.OK)
+            {
+                // Ngày hiện tại
+                DateTime now = DateTime.Now;
+
+                // Kiểm tra các mục gần đến hạn (trước 90 ngày)
+                var nearingDates = peoples.Where(p => p.Date <= now.AddDays(90)).ToList();
+                // Hiển thị thông báo nếu có mục gần đến hạn
+                if (nearingDates.Any())
+                {
+                    try { 
+                    using (var workbook = new XLWorkbook())
+                    {
+                        var worksheet = workbook.Worksheets.Add("Danh Sách");
+                        worksheet.Cell(1, 1).Value = "STT";
+                        worksheet.Cell(1, 2).Value = "Họ và Tên";
+                        worksheet.Cell(1, 3).Value = "Ngày bổ nhiệm lại";
+                        worksheet.Cell(1, 4).Value = "Nơi công tác";
+                        var headerRange = worksheet.Range("A1:D1");
+                        headerRange.Style.Font.Bold = true; // In đậm
+                        headerRange.Style.Fill.BackgroundColor = XLColor.LightBlue; // Tô màu xanh nhạt
+                        headerRange.Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Center; // Căn giữa
+
+                        for (int i = 0; i < nearingDates.Count; i++)
+                        {
+                            worksheet.Cell(i + 2, 1).Value = i + 1;
+                            worksheet.Cell(i + 2, 2).Value = nearingDates[i].NamePerson;
+                            worksheet.Cell(i + 2, 3).Value = nearingDates[i].Date.ToString("dd/MM/yyyy");
+                            worksheet.Cell(i + 2, 4).Value = nearingDates[i].WorkPlace;
+
+                        }
+                        var range = worksheet.Range($"A1:D{nearingDates.Count + 1}");
+                        range.Style.Border.OutsideBorder = XLBorderStyleValues.Thin; // Viền ngoài dày
+                        range.Style.Border.InsideBorder = XLBorderStyleValues.Thin; // Viền trong mỏng
+                        worksheet.Columns().AdjustToContents();
+
+                        string filePath = $"D:\\Danh sách bổ nhiệm lại {now.ToString("dd-MM-yyyy HH-mm-ss")}.xlsx"; // Đường dẫn lưu file
+                        workbook.SaveAs(filePath);
+                        MessageBox.Show("Xuất file thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    }
+                    catch {
+                        MessageBox.Show("Xuất file lỗi", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Chưa có cán bộ nào đến thời hạn bổ nhiệm lại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                
+            }
         }
     }
 }
